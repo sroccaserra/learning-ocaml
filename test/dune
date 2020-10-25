@@ -1,2 +1,3 @@
-(test
- (name learning_ocaml))
+(tests
+  (names fact_test)
+  (libraries alcotest learning_ocaml))
